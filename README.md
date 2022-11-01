@@ -6,13 +6,13 @@ Time spent: **12** hours spent in total
 
 ## Pen Testing Report
 
-### 1. (Required) Vulnerability Name or ID
+### 1. (Required) Vulnerability Name: XSS or ID: CVE-2015-5622
 
 - [ ] Summary: 
   - Vulnerability types: XSS
   - Tested in version: 4.2
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
+  - Fixed in version: 4.2.3
+- [ ] GIF Walkthrough: xss.gif
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
