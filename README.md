@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pen Testing
 
-Time spent: **X** hours spent in total
+Time spent: **12** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -9,8 +9,8 @@ Time spent: **X** hours spent in total
 ### 1. (Required) Vulnerability Name or ID
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
+  - Vulnerability types: XSS
+  - Tested in version: 4.2
   - Fixed in version: 
 - [ ] GIF Walkthrough: 
 - [ ] Steps to recreate: 
