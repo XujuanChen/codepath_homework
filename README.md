@@ -19,7 +19,7 @@ Time spent: **12** hours spent in total
 - [ ] Affected source code:
 
   
-### 2. (Required) Vulnerability Name or ID
+### 2. (Required) Vulnerability Name: XSS
 
 - [ ] Summary: 
   - Vulnerability types: XSS
@@ -32,7 +32,7 @@ Time spent: **12** hours spent in total
 - [ ] Affected source code:
 
 
-### 3. (Required) Vulnerability types: XSS
+### 3. (Required) Vulnerability Name: XSS
 
 - [ ] Summary: 
   - Vulnerability types: XSS
