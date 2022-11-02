@@ -6,44 +6,62 @@ Time spent: **12** hours spent in total
 
 ## Pen Testing Report
 
-### 1. (Required) Vulnerability Name: XSS 
+### 1. (Required) Vulnerability Name: Authenticated Stored Cross-Site Scripting (XSS)
 
 - [ ] Summary: 
-  - Vulnerability types: XSS
-  - Tested in version: 4.2
-  - Fixed in version: 4.2.3
-- [ ] GIF Walkthrough: <img src=xss.gif />
+  - Vulnerability types: Authenticated Stored Cross-Site Scripting (XSS)
+  - Tested in version: 4.2.2
+  - Fixed in version:  4.2.3
+- [ ] GIF Walkthrough: <img src=XSS1.gif />
 - [ ] Steps to recreate: 
-  - Create a new post
-  - type this line of code in the text editor: http://wpdistillery.vm/<svg onload=alert('test')> 
+  - Create a new Post
+  - Key in the line of code in text editer: <a href="</a><a title=" onmouseover=alert('test')  ">link</a>
 - [ ] Affected source code:
-
+  - [Link 1](https://klikki.fi/adv/wordpress3.html)
   
-### 2. (Required) Vulnerability Name: XSS
+### 2. (Required) Vulnerability Name or ID
 
 - [ ] Summary: 
-  - Vulnerability types: XSS
-  - Tested in version: 4.2
-  - Fixed in version: 4.2.3
-- [ ] GIF Walkthrough: <img src=XSS2.gif />
+  - Vulnerability types:
+  - Tested in version:
+  - Fixed in version: 
+- [ ] GIF Walkthrough: 
 - [ ] Steps to recreate: 
-  - Create a new post
-  - type this line of code in the text editor: <a href="[caption code=">]</a><a title=" onmouseover=alert(1) ">link</a>
 - [ ] Affected source code:
+  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
-
-### 3. (Required) Vulnerability Name: XSS
+### 3. (Required) Vulnerability Name or ID
 
 - [ ] Summary: 
-  - Vulnerability types: XSS
-  - Tested in version: 4.2
-  - Fixed in version: 4.2.3
-- [ ] GIF Walkthrough: <img src=XSS3.gif />
+  - Vulnerability types:
+  - Tested in version:
+  - Fixed in version: 
+- [ ] GIF Walkthrough: 
 - [ ] Steps to recreate: 
-  - Create a new post
-  - type this line of code in the text editor: <img src=X onerror=alert(document.cookie)>.jpg 
 - [ ] Affected source code:
+  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
+### 4. (Optional) Vulnerability Name or ID
+
+- [ ] Summary: 
+  - Vulnerability types:
+  - Tested in version:
+  - Fixed in version: 
+- [ ] GIF Walkthrough: 
+- [ ] Steps to recreate: 
+- [ ] Affected source code:
+  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+
+### 5. (Optional) Vulnerability Name or ID
+
+- [ ] Summary: 
+  - Vulnerability types:
+  - Tested in version:
+  - Fixed in version: 
+- [ ] GIF Walkthrough: 
+- [ ] Steps to recreate: 
+- [ ] Affected source code:
+  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
@@ -66,7 +84,7 @@ Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2022] [Xujuan Chen]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
