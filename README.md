@@ -58,16 +58,16 @@ Time spent: **12** hours spent in total
 - [ ] Affected source code:
   - [Link 1](https://www.wpwhitesecurity.com/enumerate-wordpress-users-wpscan-security-scanner/)
 
-### 5. (Optional) Vulnerability Name or ID
+### 5. (Optional) Vulnerability Name: Weak Passwords
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
+  - Vulnerability types: Weak Passwords
+  - Tested in version: 4.2
   - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
+- [ ] GIF Walkthrough: <img src=password.gif />
+- [ ] Steps to recreate: ```wpscan --url http://wpdistillery.vm -P /home/kali/Downloads/rockyou.txt --usernames admin,wpscan01```
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+  - [Link 1](https://www.wpwhitesecurity.com/strong-wordpress-passwords-wpscan/) 
 
 ## Assets
 
