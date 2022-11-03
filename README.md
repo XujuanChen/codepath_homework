@@ -52,7 +52,7 @@ Time spent: **12** hours spent in total
   - Vulnerability types: Enumerate Usernames
   - Tested in version: 4.2 
   - Fixed in version: 
-- [ ] GIF Walkthrough: <img enumerate.gif />
+- [ ] GIF Walkthrough: <img src=enumerate.gif />
 - [ ] Steps to recreate: 
       ```wpscan --url http://wpdistillery.vm/ --enumerate u```
 - [ ] Affected source code:
