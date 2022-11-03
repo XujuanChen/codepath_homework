@@ -46,16 +46,17 @@ Time spent: **12** hours spent in total
 - [ ] Affected source code:
   - [Link 1](https://blog.knownsec.com/2015/09/wordpress-vulnerability-analysis-cve-2015-5714-cve-2015-5715/)
 
-### 4. (Optional) Vulnerability Name or ID
+### 4. (Optional) Vulnerability Name: Enumerate Usernames
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
+  - Vulnerability types: Enumerate Usernames
+  - Tested in version: 4.2 
   - Fixed in version: 
-- [ ] GIF Walkthrough: 
+- [ ] GIF Walkthrough: <img enumerate.gif />
 - [ ] Steps to recreate: 
+      ```wpscan --url http://wpdistillery.vm/ --enumerate u```
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [Link 1](https://www.wpwhitesecurity.com/enumerate-wordpress-users-wpscan-security-scanner/)
 
 ### 5. (Optional) Vulnerability Name or ID
 
