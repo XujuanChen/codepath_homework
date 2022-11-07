@@ -60,7 +60,7 @@ Description:
   - A vulnerability of Cross-Site Request Forgery (CSRF). 
   - Post the malicious link of CSFR form by the Contact Form.
   - The form was auto-submit, once admin login and checked the link, it will auto-update targeted user's info.
-<img src="RedCSFR.gif">
+<img src="redCSFR.gif">
 
 ## Notes
 
