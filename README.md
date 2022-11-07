@@ -22,6 +22,7 @@ Vulnerability #1: SQL Injection (SQLi)
 Description:
   - A vulnerability of SQL Injection by query. 
   - code: ```https://35.184.88.145/blue/public/salesperson.php?id=4'OR SLEEP(3)=0--' ```
+  
 <img src="blueSQLI.gif">
 
 Vulnerability #2: Session Hijacking/Fixation
@@ -30,36 +31,45 @@ Description:
   - A vulnerability of Session Hijacking/Fixation. 
   - code: ```https://35.184.88.145/blue/public/hacktools/change_session_id.php ```
   - Change the session id to the one we hijacked by sniffing the network, we are able to bypass user login.
+  
 <img src="blueSession.gif">
 
 ## Green
 
+Vulnerability #1: Username Enumeration
+
 Description:
   - A vulnerability of Username Enumeration. 
   - When the username is valid and the password is incorrect, the error was bold. Otherwise the error was not bold.
+  
 <img src="greenEnumerate.gif">
 
-Vulnerability #2: Session Hijacking/Fixation
+Vulnerability #2: Cross-Site Scripting (XSS)
 
 Description:
   - A vulnerability of Cross-Site Scripting (XSS). 
   - code: ```<script>alert('XXX found the XSS!');</script> ```
   - Post the malicious script code through Contact Form. The XSS attack was succeed on green site and pop-up on the feedback page.
+  
 <img src="greenXss.gif">
 
 ## Red
 
+Vulnerability #1: Insecure Direct Object Reference (IDOR)
+
 Description:
   - A vulnerability of Insecure Direct Object Reference (IDOR). 
   - We are able to see sensitive information by change the query id. The id of 10, 11 suppose not to be shown.
+  
 <img src="redQuery.gif">
 
-Vulnerability #2: Session Hijacking/Fixation
+Vulnerability #2: Cross-Site Request Forgery (CSRF)
 
 Description:
   - A vulnerability of Cross-Site Request Forgery (CSRF). 
   - Post the malicious link of CSFR form by the Contact Form.
   - The form was auto-submit, once admin login and checked the link, it will auto-update targeted user's info.
+  
 <img src="redCSFR.gif">
 
 ## Notes
