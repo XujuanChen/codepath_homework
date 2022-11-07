@@ -70,7 +70,7 @@ Description:
   - Post the malicious link of CSFR form by the Contact Form.
   - The form was auto-submit, once admin login and checked the link, it will auto-update targeted user's info.
   
-<img src="redCSFR.gif">
+<img src="redCsrf.gif">
 
 ## Notes
 
