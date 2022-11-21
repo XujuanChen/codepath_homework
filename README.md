@@ -2,23 +2,27 @@
 
 **Time spent:** **10** hours spent in total
 
-**Objective:** Create a honeynet using MHN-Admin. Present your findings as if you were requested to give a brief report of the current state of Internet security. Assume that your audience is a current employer who is questioning why the company should allocate anymore resources to the IT security team.
+**Objective:** 
+Create a honeynet using MHN-Admin. Present your findings as if you were requested to give a brief report of the current state of Internet security. Assume that your audience is a current employer who is questioning why the company should allocate anymore resources to the IT security team.
 
 ### MHN-Admin Deployment (Required)
 
-**Summary:** I deployed MHN-Admin on GCP VM instance. Please see the gif below:
+**Summary:** 
+I deployed MHN-Admin on GCP VM instance. Please see the gif below:
 
 <img src="mhn-admin.gif">
 
 ### Dionaea Honeypot Deployment (Required)
 
-**Summary:** Dionaea is a low-interaction honeypot that captures attack payloads and malware.
+**Summary:** 
+Dionaea is a low-interaction honeypot that captures attack payloads and malware.
 
 <img src="mhn.gif">
 
 ### Database Backup (Required) 
 
-**Summary:** MHN-Admin uses mongodb to store the data collected from honeypots.
+**Summary:** 
+MHN-Admin uses mongodb to store the data collected from honeypots.
 I've exported about 4900 records in the JSON file which I have been uploaded on this GitHub branch.
 
 ### Deploying Additional Honeypot(s) (Optional)
@@ -35,21 +39,18 @@ I've exported about 4900 records in the JSON file which I have been uploaded on 
 
 #### 12 Malwares
 
-**Summary:** How did you find it? Which honeypot captured it? What does each malware do?
-
-MD5 Hash: *Run `md5sum` on the file and record the hash here.*
-
-SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
+**Summary:**
+I picked one of the IP address from the data collected by Dionaea honeypot,
+and looked up on VirusTotal for the malwares detected.
 
 <img src="malware1.png">
 
 #### 3 Malwares
 
-**Summary:** How did you find it? Which honeypot captured it? What does each malware do?
+**Summary:** 
+I picked one of the IP address from the data collected by Dionaea honeypot,
+and looked up on VirusTotal for the malwares detected.
 
-MD5 Hash: *Run `md5sum` on the file and record the hash here.*
-
-SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
 <img src="malware2.png">
 
 ## Notes
