@@ -12,15 +12,16 @@
 
 ### Dionaea Honeypot Deployment (Required)
 
-**Summary:** Briefly in your own words, what does dionaea do?
+**Summary:** Dionaea is a low-interaction honeypot that captures attack payloads and malware.
 
-<img src="dionaea-honeypot.gif">
+<img src="mhn.gif">
 
 ### Database Backup (Required) 
 
 **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
 
 *Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
+ --Please see the file session.json uploaded on github.
 
 ### Deploying Additional Honeypot(s) (Optional)
 
