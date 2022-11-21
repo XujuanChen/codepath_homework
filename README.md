@@ -33,7 +33,7 @@ I've exported about 4900 records in the JSON file which I have been uploaded on 
 
 ### Malware Capture and Identification (Optional)
 
-#### X Malware
+#### 12 Malwares
 
 **Summary:** How did you find it? Which honeypot captured it? What does each malware do?
 
@@ -41,7 +41,16 @@ MD5 Hash: *Run `md5sum` on the file and record the hash here.*
 
 SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
 
-<img src="x-malware.gif">
+<img src="x-malware1.png">
+
+#### 3 Malwares
+
+**Summary:** How did you find it? Which honeypot captured it? What does each malware do?
+
+MD5 Hash: *Run `md5sum` on the file and record the hash here.*
+
+SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
+<img src="x-malware2.png">
 
 ## Notes
 
