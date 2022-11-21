@@ -18,18 +18,18 @@
 
 ### Database Backup (Required) 
 
-**Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
-
-*Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
- --Please see the file session.json uploaded on github.
+**Summary:** MHN-Admin uses mongodb to store the data collected from honeypots.
+I've exported about 4900 records in the JSON file which I have been uploaded on this GitHub branch.
 
 ### Deploying Additional Honeypot(s) (Optional)
 
-#### X Honeypot
+#### 4 Honeypots deployed:
+- honeypot-1-dionaea
+- honeypot-2-conpot
+- honeypot-3-cowrie
+- honeypot-4-elastichoney
 
-**Summary:** What does this honeypot simulate and do for a security researcher?
-
-<img src="x-honeypot.gif">
+<img src="honeypots.png">
 
 ### Malware Capture and Identification (Optional)
 
