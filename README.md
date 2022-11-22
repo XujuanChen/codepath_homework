@@ -64,11 +64,11 @@ id, protocol, hpfeed_id, timestamp, source_ip, source_port, destination_port, id
 
 **Summary:**
 
-file hash   80c6311c5957eeb3df80021db9b602180f20b1dca280739a3477ec3ec890ce7a
+file SHA-256 hash: 80c6311c5957eeb3df80021db9b602180f20b1dca280739a3477ec3ec890ce7a
 
-MD5	674fe254fa5aaba3975fe2b57f27c4ab
+MD5:	674fe254fa5aaba3975fe2b57f27c4ab
 
-SHA-1	efca00be6076626b982c1163e19dfe55ca5cff03
+SHA-1:	efca00be6076626b982c1163e19dfe55ca5cff03
 
 <img src=malicious.gif>
 
