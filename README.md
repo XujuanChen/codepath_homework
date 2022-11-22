@@ -64,7 +64,7 @@ id, protocol, hpfeed_id, timestamp, source_ip, source_port, destination_port, id
 
 **Summary:**
 
-<imag src='malicious.gif' />
+<img src=malicious.gif>
 
 <img src="malware1.png">
 
