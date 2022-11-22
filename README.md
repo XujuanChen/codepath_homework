@@ -24,8 +24,28 @@ Dionaea is a low-interaction honeypot that captures attack payloads and malware.
 **Summary:** 
 MHN-Admin uses mongodb to store the data collected from honeypots.
 I've exported about 4900 records in the JSON file which I have been uploaded on this GitHub branch.
+
+The data includes: 
+id, protocol, hpfeed_id, timestamp, source_ip, source_port, destination_port, identifier, and honeypot.
+
 '''
-{"_id":{"$oid":"637a9a50616a1e65e38e1ebc"},"protocol":"pcap","hpfeed_id":{"$oid":"637a9a50616a1e65e38e1ebb"},"timestamp":{"$date":"2022-11-20T21:21:20.012Z"},"source_ip":"5.188.206.38","source_port":59163,"destination_port":20118,"identifier":"30593c00-6919-11ed-9829-42010a8e0003","honeypot":"dionaea"}![image](https://user-images.githubusercontent.com/109524796/203420296-82b4d060-1fe3-4155-af19-510fe7c237c4.png)
+{
+  "_id": {
+    "$oid": "637a9a50616a1e65e38e1ebc"
+  },
+  "protocol": "pcap",
+  "hpfeed_id": {
+    "$oid": "637a9a50616a1e65e38e1ebb"
+  },
+  "timestamp": {
+    "$date": "2022-11-20T21:21:20.012Z"
+  },
+  "source_ip": "5.188.206.38",
+  "source_port": 59163,
+  "destination_port": 20118,
+  "identifier": "30593c00-6919-11ed-9829-42010a8e0003",
+  "honeypot": "dionaea"
+}
 '''
 ### Deploying Additional Honeypot(s) (Optional)
 
