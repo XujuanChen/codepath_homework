@@ -29,23 +29,23 @@ The data includes:
 id, protocol, hpfeed_id, timestamp, source_ip, source_port, destination_port, identifier, and honeypot.
 
 '''
-{
-  "_id": {
-    "$oid": "637a9a50616a1e65e38e1ebc"
-  },
-  "protocol": "pcap",
-  "hpfeed_id": {
-    "$oid": "637a9a50616a1e65e38e1ebb"
-  },
-  "timestamp": {
-    "$date": "2022-11-20T21:21:20.012Z"
-  },
-  "source_ip": "5.188.206.38",
-  "source_port": 59163,
-  "destination_port": 20118,
-  "identifier": "30593c00-6919-11ed-9829-42010a8e0003",
-  "honeypot": "dionaea"
-}
+{<br>
+  "_id": {<br>
+    "$oid": "637a9a50616a1e65e38e1ebc"<br>
+  },<br>
+  "protocol": "pcap",<br>
+  "hpfeed_id": {<br>
+    "$oid": "637a9a50616a1e65e38e1ebb"<br>
+  },<br>
+  "timestamp": {<br>
+    "$date": "2022-11-20T21:21:20.012Z"<br>
+  },<br>
+  "source_ip": "5.188.206.38",<br>
+  "source_port": 59163,<br>
+  "destination_port": 20118,<br>
+  "identifier": "30593c00-6919-11ed-9829-42010a8e0003",<br>
+  "honeypot": "dionaea"<br>
+}<br>
 '''
 ### Deploying Additional Honeypot(s) (Optional)
 
