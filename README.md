@@ -28,7 +28,6 @@ I've exported about 4900 records in the JSON file which I have been uploaded on 
 The data includes: 
 id, protocol, hpfeed_id, timestamp, source_ip, source_port, destination_port, identifier, and honeypot.
 
-'''
 {<br>
   "_id": {<br>
     "$oid": "637a9a50616a1e65e38e1ebc"<br>
@@ -46,7 +45,7 @@ id, protocol, hpfeed_id, timestamp, source_ip, source_port, destination_port, id
   "identifier": "30593c00-6919-11ed-9829-42010a8e0003",<br>
   "honeypot": "dionaea"<br>
 }<br>
-'''
+
 ### Deploying Additional Honeypot(s) (Optional)
 
 #### 4 Honeypots deployed:
